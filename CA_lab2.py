@@ -17,6 +17,7 @@ max_val = np.max(X11)
 
 # нормалізація в проміжок [0, 1]
 normalized_X11 = (X11 - min_val) / (max_val - min_val)
+tuple(normalized_X11);
 #---------------------------------------------------------------
 
 min_val = np.min(X12)
@@ -24,6 +25,7 @@ max_val = np.max(X12)
 
 # нормалізація в проміжок [0, 1]
 normalized_X12 = (X12 - min_val) / (max_val - min_val)
+tuple(normalized_X12);
 #---------------------------------------------------------------
 
 min_val = np.min(X21)
@@ -31,6 +33,7 @@ max_val = np.max(X21)
 
 # нормалізація в проміжок [0, 1]
 normalized_X21 = (X21 - min_val) / (max_val - min_val)
+tuple(normalized_X21);
 #---------------------------------------------------------------
 
 min_val = np.min(X22)
@@ -38,6 +41,7 @@ max_val = np.max(X22)
 
 # нормалізація в проміжок [0, 1]
 normalized_X22 = (X22 - min_val) / (max_val - min_val)
+tuple(normalized_X22);
 #---------------------------------------------------------------
 
 min_val = np.min(X31)
@@ -45,6 +49,7 @@ max_val = np.max(X31)
 
 # нормалізація в проміжок [0, 1]
 normalized_X31 = (X31 - min_val) / (max_val - min_val)
+tuple(normalized_X31);
 #---------------------------------------------------------------
 
 min_val = np.min(X32)
@@ -52,6 +57,7 @@ max_val = np.max(X32)
 
 # нормалізація в проміжок [0, 1]
 normalized_X32 = (X32 - min_val) / (max_val - min_val)
+tuple(normalized_X32);
 #---------------------------------------------------------------
 
 min_val = np.min(Y1)
@@ -59,6 +65,7 @@ max_val = np.max(Y1)
 
 # нормалізація в проміжок [0, 1]
 normalized_Y1 = (Y1 - min_val) / (max_val - min_val)
+tuple(normalized_Y1);
 #---------------------------------------------------------------
 
 min_val = np.min(Y2)
@@ -66,6 +73,7 @@ max_val = np.max(Y2)
 
 # нормалізація в проміжок [0, 1]
 normalized_Y2 = (Y2 - min_val) / (max_val - min_val)
+tuple(normalized_Y2);
 #---------------------------------------------------------------
 
 min_val = np.min(Y3)
@@ -73,6 +81,7 @@ max_val = np.max(Y3)
 
 # нормалізація в проміжок [0, 1]
 normalized_Y3 = (Y3 - min_val) / (max_val - min_val)
+tuple(normalized_Y3);
 #---------------------------------------------------------------
 
 min_val = np.min(Y4)
@@ -80,4 +89,6 @@ max_val = np.max(Y4)
 
 # нормалізація в проміжок [0, 1]
 normalized_Y4 = (Y4 - min_val) / (max_val - min_val)
+tuple(normalized_Y4);
 #---------------------------------------------------------------
+
